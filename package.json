@@ -1,0 +1,18 @@
+{
+  "name": "topmovies",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "netlify-lambda": "^1.6.3",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.4",
+    "serverless-http": "^2.5.0"
+  },
+  "scripts": {
+    "build": "netlify-lambda build express",
+    "dev": "nodemon index"
+  }
+}
